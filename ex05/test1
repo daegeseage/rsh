@@ -1,0 +1,1 @@
+git log -5 | grep -o -P '(?<=commit ).*(?=$)'
