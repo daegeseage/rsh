@@ -1,2 +1,4 @@
-/rsh/testdirforignore
+# exclude everything except directory foo/bar
+    /*
+    !/testdirforignore
 test1
