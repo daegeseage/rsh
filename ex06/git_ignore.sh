@@ -1,1 +1,1 @@
-cat -e .gitignore 
+find . | git check-ignore --stdin
