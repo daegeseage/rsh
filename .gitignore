@@ -1,4 +1,5 @@
-# exclude everything except directory foo/bar
-    /*
-    !/testdirforignore
+*.swp
+*.test
+testdirforignore
+testfileforignore
 test1
