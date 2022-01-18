@@ -1,1 +1,3 @@
-find *~ "#"*"#" -delete
+#!/bin/bash
+
+find . \( -name "#*#" -or -name "*~" \) -delete
