@@ -1,0 +1,66 @@
+.:
+total 28
+drwxrwxr-x  6 daegeseage daegeseage 4096 янв 25 16:53 .
+drwxrwxr-x 12 daegeseage daegeseage 4096 янв 23 17:08 ..
+-rw-rw-r--  1 daegeseage daegeseage    0 янв 25 16:34 count1.test
+drwxrwxr-x  2 daegeseage daegeseage 4096 янв 25 16:41 count1testdir
+-rw-rw-r--  1 daegeseage daegeseage    0 янв 25 16:34 count2.test
+drwxrwxr-x  6 daegeseage daegeseage 4096 янв 25 16:45 count2testdir
+-rw-rw-r--  1 daegeseage daegeseage    0 янв 25 16:34 count3.test
+drwxrwxr-x  2 daegeseage daegeseage 4096 янв 25 16:34 count3testdir
+-rw-rw-r--  1 daegeseage daegeseage    0 янв 25 16:34 count4.test
+drwxrwxr-x  2 daegeseage daegeseage 4096 янв 25 16:34 count4testdir
+-rwxrwxr-x  1 daegeseage daegeseage   22 янв 25 16:49 count_files.sh
+-rw-rw-r--  1 daegeseage daegeseage    0 янв 25 16:53 lsoutput1
+
+./count1testdir:
+total 8
+drwxrwxr-x 2 daegeseage daegeseage 4096 янв 25 16:41 .
+drwxrwxr-x 6 daegeseage daegeseage 4096 янв 25 16:53 ..
+-rw-rw-r-- 1 daegeseage daegeseage    0 янв 25 16:41 counttest1.test
+-rw-rw-r-- 1 daegeseage daegeseage    0 янв 25 16:41 counttest2.test
+-rw-rw-r-- 1 daegeseage daegeseage    0 янв 25 16:41 counttest3.test
+-rw-rw-r-- 1 daegeseage daegeseage    0 янв 25 16:41 counttest4.test
+-rw-rw-r-- 1 daegeseage daegeseage    0 янв 25 16:41 counttest5.test
+-rw-rw-r-- 1 daegeseage daegeseage    0 янв 25 16:41 counttest6.test
+-rw-rw-r-- 1 daegeseage daegeseage    0 янв 25 16:41 counttest7.test
+-rw-rw-r-- 1 daegeseage daegeseage    0 янв 25 16:41 counttest8.test
+
+./count2testdir:
+total 24
+drwxrwxr-x 6 daegeseage daegeseage 4096 янв 25 16:45 .
+drwxrwxr-x 6 daegeseage daegeseage 4096 янв 25 16:53 ..
+drwxrwxr-x 2 daegeseage daegeseage 4096 янв 25 16:45 count1subdir
+drwxrwxr-x 2 daegeseage daegeseage 4096 янв 25 16:45 count2subdir
+drwxrwxr-x 2 daegeseage daegeseage 4096 янв 25 16:45 count3subdir
+drwxrwxr-x 2 daegeseage daegeseage 4096 янв 25 16:45 count4subdir
+
+./count2testdir/count1subdir:
+total 8
+drwxrwxr-x 2 daegeseage daegeseage 4096 янв 25 16:45 .
+drwxrwxr-x 6 daegeseage daegeseage 4096 янв 25 16:45 ..
+
+./count2testdir/count2subdir:
+total 8
+drwxrwxr-x 2 daegeseage daegeseage 4096 янв 25 16:45 .
+drwxrwxr-x 6 daegeseage daegeseage 4096 янв 25 16:45 ..
+
+./count2testdir/count3subdir:
+total 8
+drwxrwxr-x 2 daegeseage daegeseage 4096 янв 25 16:45 .
+drwxrwxr-x 6 daegeseage daegeseage 4096 янв 25 16:45 ..
+
+./count2testdir/count4subdir:
+total 8
+drwxrwxr-x 2 daegeseage daegeseage 4096 янв 25 16:45 .
+drwxrwxr-x 6 daegeseage daegeseage 4096 янв 25 16:45 ..
+
+./count3testdir:
+total 8
+drwxrwxr-x 2 daegeseage daegeseage 4096 янв 25 16:34 .
+drwxrwxr-x 6 daegeseage daegeseage 4096 янв 25 16:53 ..
+
+./count4testdir:
+total 8
+drwxrwxr-x 2 daegeseage daegeseage 4096 янв 25 16:34 .
+drwxrwxr-x 6 daegeseage daegeseage 4096 янв 25 16:53 ..
