@@ -1,4 +1,2 @@
-FT_LINE1='7'
-FT_LINE2='15'
-COUNT=$(expr $FT_LINE2 - $FT_LINE1)
-cat /etc/passwd | grep -v '#' | awk 'NR%2' | head -n $FT_LINE2 | tail -n $COUNT | awk -F ':' '{print $1}' | rev | sort -r | tr "\n" , | sed s/$/./g 
+#!/usr/local/bin/bash
+grep -v "#" < /etc/passwd | awk 'NR%2' | awk -F ':' '{print $1}' | rev | sort -r | head -n "$FT_LINE2" | tail -n "$(( FT_LINE2 - FT_LINE1 + 1 ))" | tr "\n" "," | sed 's/$/./g' 
