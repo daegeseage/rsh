@@ -1,5 +1,6 @@
 *.swp
 *.test
+*.out
 testdirforignore
 testfileforignore
 test1
